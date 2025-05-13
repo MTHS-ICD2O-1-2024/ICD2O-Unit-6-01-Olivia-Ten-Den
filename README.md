@@ -1,4 +1,4 @@
-# ICS2O ⇢ Unit #3-01
+# ICS2O ⇢ Unit #6-01
 
 [![Mr Coxall's Super Linter](https://github.com/MTHS-ICD2O-1-2024/ICD2O-Unit-6-01-Olivia-Ten-Den/workflows/Mr%20Coxall's%20Super%20Linter/badge.svg)](https://github.com/MTHS-ICD2O-1-2024/ICD2O-Unit-6-01-Olivia-Ten-Den/actions)
 
