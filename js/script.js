@@ -31,14 +31,14 @@ function checkNumber() {
     document.getElementById("result").innerHTML =
       "<p>You can see a PG-13 movie alone.</p>"
   }
-    // process
+  // process
   else if (ageNumber >= 5) {
     //output
     document.getElementById("result").innerHTML =
       "<p>You can see a G or PG movie alone.</p>"
   }
-    // process
-  else  {
+  // process
+  else {
     //output
     document.getElementById("result").innerHTML =
       "<p>I think you may be to young to watch a movie by yourself. :(</p>"
