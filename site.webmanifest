@@ -1,9 +1,9 @@
 {
-  "name": "Olivia's App",
-  "short_name": "Olivia's App",
+  "name": "Olivia's 2nd App",
+  "short_name": "Olivia's 2nd App",
   "description": "Github Page for Olivia's App",
-  "scope": "/ICD2O-Unit-6-01-Olivia-Ten-Den/",
-  "start_url": "/ICD2O-Unit-6-01-Olivia-Ten-Den/",
+  "scope": "/ICD2O-Unit-6-01b-Olivia-Ten-Den/",
+  "start_url": "/ICD2O-Unit-6-01b-Olivia-Ten-Den/",
   "permissions": [ 
     "unlimitedStorage",
     "fullscreen"

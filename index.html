@@ -5,7 +5,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Watch a movie, in JavaScript" />
+  <meta name="description" content="Sum of a Number's Natural Numbers, in JS" />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Olivia TD" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -24,8 +24,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
   <link rel="manifest" href="./site.webmanifest" />
-  <title>Watch a movie, in JavaScript</title>
-  <link rel="canonical" href="https://olivia.ten-den.github.io/ICD2O-Unit-6-01-Olivia-Ten-Den/" />
+  <title>Sum of a Number's Natural Numbers, in JS</title>
+  <link rel="canonical" href="https://olivia.ten-den.github.io/ICD2O-Unit-6-01b-Olivia-Ten-Den/" />
 </head>
 
 <body>
@@ -34,31 +34,35 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Watch a movie, in JavaScript</span>
+        <span class="mdl-layout-title">Sum of a Number's Natural Numbers, in JS</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/movie-ratings.jpg" alt="Image of a poster with the types of movie ratings." />
+        <img src="./images/sum.png" alt="Image of the formula for finding the sum of a number's natural numbers." />
       </div>
-      <div class="page-content">Enter your age below.</div>
+      <div class="page-content">
+        Please enter an integer you want used in this equation.
+      </div>
       <br />
       <form>
+        <h6>Integer:</h6>
         <div class="mdl-textfield mdl-js-textfield">
           <!-- input pattern attribute -->
-          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="age-number" />
+          <input class="mdl-textfield__input" type="number" min="1" id="integer" name="integer" />
           <!-- mdl-textfield__label -->
-          <label class="mdl-textfield__label" for="age-number">Enter age here...</label>
+          <label class="mdl-textfield__label" for="integer">Enter an integer here...
+          </label>
           <!-- class "mdl-textfield__error" -->
-          <span class="mdl-textfield__error">Input is not a number.</span>
+          <span class="mdl-textfield__error">Input is not a valid integer.</span>
         </div>
         <br />
-        <br />
-        <!-- Accent-colored raised button with ripple -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="checkNumber()" type="button">
-          Check!
-        </button>
+        <div>
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent" onclick="calculate()"
+            type="button">
+            Calculate
+          </button>
+        </div>
       </form>
       <br />
       <div class="page-content-answer">
