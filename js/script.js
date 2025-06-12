@@ -3,6 +3,7 @@
 // Created by: Olivia Ten Den
 // Created on: May 6, 2025
 // This file contains the JS functions for index.html
+//test
 
 "use strict"
 
